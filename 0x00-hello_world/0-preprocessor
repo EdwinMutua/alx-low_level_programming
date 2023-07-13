@@ -1,5 +1,3 @@
 #!/bin/bash
-export CFILE="main.c"
-gcc -E "$CFILE" -o c
-./c
+gcc -E| $CFILE -o c
 
